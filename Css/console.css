@@ -12,7 +12,12 @@
     display: flex;
     gap: 20px;
     padding: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
 
+    #formulaire{
+        background-color: white;
+    }
 
 }
 
@@ -23,7 +28,6 @@
     padding: 15px;
     text-align: center;
     height: 50%;
-    flex-wrap: wrap;
     width: 40%;
 }
 
@@ -98,11 +102,12 @@
 
 /*css reservation*/
 .reservation-container {
-    display: grid;
+    display: flex;
     gap: 20px;
     padding: 20px;
     max-width: 1200px;
     margin: auto;
+
 }
 
 /*css div des slots*/
@@ -255,31 +260,25 @@ ul{
     color: #333;
 }
 
-
-
-
-
 /*responsive*/
-@media (max-width: 1200px) {
+@media (min-width: 1200px) {
     .console-container {
         grid-template-columns: repeat(4, 1fr);
     }
 }
 
-@media (min-width: 500px) and (max-width: 1200px) {
+@media (min-width: 768px) and (max-width: 1199px) {
     .console-container {
         grid-template-columns: repeat(2, 1fr);
-        flex-wrap: wrap;
-        justify-content: center;
-
     }
 }
 
-@media(max-width: 500px) {
+@media (max-width: 767px) {
     .console-container {
         grid-template-columns: 1fr;
-        flex-direction: column;
+       display: inline-block;
     }
+
 }
 
 /*responsive*/
@@ -290,15 +289,9 @@ ul{
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 800px) {
     .reservation-container {
         grid-template-columns: 1fr;
+        flex-wrap: wrap;
     }
 }
-#formulaire{
-    background-color: white;
-    grid-column: auto;
-    display: flex;
-    flex-direction: initial;
-}
-
