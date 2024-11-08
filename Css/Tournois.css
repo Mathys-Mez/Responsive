@@ -51,7 +51,7 @@
 }
 
 .hhh3{
-    margin-top: 20px;
+    margin-top: 10%;
     text-align: center;
     margine
 }
@@ -97,12 +97,12 @@
 #reglement {
     text-align: left;
     font-size: 17px;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 28px;
+    margin-right: 30px;
     color: #1566AD;
     font-family: "Roboto", serif;
-    border-radius: 8px; /* Arrondit les coins de la bordure */
-    border: 5px dotted #E41F21;
+    border-radius: 8px;
+    border: 4px dotted #E41F21;
 }
 #dateheure {
     list-style-type: none;
@@ -205,7 +205,7 @@ ul{
 
 @media screen and (max-width: 500px) {
     .jeux {
-        font-size: 14px; /* Très petite taille de police pour les petits écrans */
+        margin-left: 2%;
     }
 }
 /*imagejeux*/
@@ -276,8 +276,8 @@ ul{
 }/*Wrapper*/
 @media screen and (max-width: 1200px) {
     .wrapper {
-        font-size: 25px; /* Réduction de la taille de la police */
-        margin-left: 10%;
+        padding: 9px;
+        margin-left: 18%;
     }
 }
 
@@ -289,26 +289,15 @@ ul{
 
 @media screen and (max-width: 500px) {
     .wrapper{
-        font-size: 1.2em;
-    }
-    .wrapper {
-        padding: 10px;
-    }
-    .wrapper {
-        max-width: 100px;
-    }
-    .wrapper{
-        width: 40px;
-    }
-    .wrapper{
-        font-size: 12px;
+        font-size: 100%;
+        margin-left: 10%;
     }
 }
 /*Formulaire*/
 @media screen and (max-width: 1200px) {
     .formulaire,ul {
         font-size: 18px;
-        margin-left: 0%;
+        margin-left: 10%;
     }
 }
 @media screen and (max-width: 800px) {

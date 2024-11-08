@@ -48,8 +48,8 @@
 /*Programme du festival*/
 @media screen and (max-width: 1200px) {
     #pdf {
-        text-align: center;
-        font-size: 16px; /* Réduction supplémentaire de la taille de la police */
+        font-size: 16px;
+        margin-left: 42%;
     }
     .programme {
         text-align: center;
@@ -61,8 +61,7 @@
 
 @media screen and (max-width: 800px) {
     #pdf {
-        text-align: center;
-        font-size: 16px; /* Réduction supplémentaire de la taille de la police */
+        margin-left: 40%;
     }
     .programme {
         text-align: center;
@@ -73,10 +72,6 @@
 }
 
 @media screen and (max-width: 500px) {
-    #pdf {
-        text-align: center;
-        font-size: 16px; /* Réduction supplémentaire de la taille de la police */
-    }
     .programme {
         text-align: center;
     }
