@@ -149,7 +149,7 @@ ul{
         font-size: 1.5em;
     }
 
-    boxx{
+    .boxx{
         text-align: center;
         width: 50%;
         display: inline-block;
