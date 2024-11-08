@@ -53,7 +53,6 @@
 .hhh3{
     margin-top: 10%;
     text-align: center;
-    margine
 }
 .jeux li {
     display: flex;
@@ -187,6 +186,12 @@ ul{
     }
     #footerlien, #contact-footer {
         font-size: 12px;
+    }
+}
+/*Slogan*/
+@media screen and (max-width: 1200px) {
+    .slogan  {
+        font-size: 1.5em; /* Réduction de la taille de la police */
     }
 }
 /*jeux*/
