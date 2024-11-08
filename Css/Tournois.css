@@ -1,5 +1,11 @@
 /*css Tournois*/
 
+
+
+/*Slogan*/
+.slogan{
+    text-align: left;
+}
 /* Image texte top page*/
 .imageboutique {
     margin-left: -100px;
@@ -11,6 +17,11 @@
     display: inline-block;
     margin-left: 390px;
     width: 50%;
+}
+.inscivez-vous{
+    text-align: left;
+    font-family: "Pixelify Sans", serif;
+    color: #E41F21;
 }
 #inscrivez {
     position: sticky;
@@ -98,7 +109,7 @@
     color: #1566AD;
     font-family: "Pixelify Sans", serif;
     font-size: 20px;
-    justify-items: center;
+    justify-items: left;
 }
 
 /*css Formulaire*/
@@ -111,3 +122,157 @@ ul{
 }
 
 /*responsive*/
+/* Responsive styles */
+@media screen and (max-width: 1200px) {
+    #interieurboutique {
+        display: inline-block;
+        margin-left: 100px;
+        width: 80%;
+    }
+    #inscrivez {
+        top: 58%; /* Ajuste le bouton plus bas pour plus d'espace */
+        margin-left: 26px;
+    }
+    h3{
+        top: 50px;
+        margin-left: 400px;
+    }
+}
+h2{
+    text-align: center;
+}
+@media screen and (max-width: 800px) {
+    h1, h2, h3 {
+        font-size: 1.5em;
+    }
+    #categorie {
+        flex-direction: column;
+        gap: 10px;
+    }
+    #inscrivez {
+        margin-left: 0;
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+}
+@media screen and (max-width: 500px) {
+    h1, h2{
+        font-size: 1.2em;
+    }
+    #categorie {
+        padding: 10px;
+    }
+    .jeux li {
+        max-width: 100px;
+        text-align: center;
+    }
+    .logo {
+        width: 40px;
+    }
+    #footerlien, #contact-footer {
+        font-size: 12px;
+    }
+}
+
+/*jeux*/
+@media screen and (max-width: 1200px) {
+    .jeux  {
+        font-size: 25px; /* Réduction de la taille de la police */
+        margin-left: 10%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .jeux {
+        font-size: 16px; /* Réduction supplémentaire de la taille de la police */
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .jeux {
+        font-size: 14px; /* Très petite taille de police pour les petits écrans */
+    }
+}
+@media screen and (max-width: 1200px) {
+    #dateheure  {
+        font-size: 25px; /* Réduction de la taille de la police */
+        margin-left: 34%;
+    }
+}
+@media screen and (max-width: 800px) {
+    #dateheure {
+        font-size: 16px; /* Réduction supplémentaire de la taille de la police */
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #dateheure {
+        font-size: 14px; /* Très petite taille de police pour les petits écrans */
+    }
+}
+@media screen and (max-width: 1200px) {
+    #reglement {
+        font-size: 25px; /* Réduction de la taille de police */
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #reglement {
+        font-size: 16px; /* Réduction de la taille de police pour les petits écrans */
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #reglement {
+        font-size: 14px; /* Petite taille de police pour les très petits écrans */
+    }
+}
+
+/* Rouge Important */
+@media screen and (max-width: 1200px) {
+    .rougeimportant {
+        font-size: 25px; /* Réduction de la taille de la police */
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .rougeimportant {
+        font-size: 16px; /* Réduction supplémentaire de la taille de la police */
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .rougeimportant {
+        font-size: 14px; /* Très petite taille de police pour les petits écrans */
+    }
+}/*Wrapper*/
+@media screen and (max-width: 1200px) {
+    .wrapper {
+        font-size: 25px; /* Réduction de la taille de la police */
+        margin-left: 10%;    }
+}
+
+@media screen and (max-width: 800px) {
+    .wrapper {
+        font-size: 16px; /* Réduction supplémentaire de la taille de la police */
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .wrapper{
+        font-size: 1.2em;
+    }
+    .wrapper {
+        padding: 10px;
+    }
+    .wrapper {
+        max-width: 100px;
+    }
+    .wrapper{
+        width: 40px;
+    }
+    .wrapper{
+        font-size: 12px;
+    }
+}
