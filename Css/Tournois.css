@@ -53,7 +53,6 @@
 .hhh3{
     margin-top: 10%;
     text-align: center;
-    margine
 }
 .jeux li {
     display: flex;
@@ -150,7 +149,7 @@ ul{
         font-size: 1.5em;
     }
 
-    boxx{
+    .boxx{
         text-align: center;
         width: 50%;
         display: inline-block;
@@ -187,6 +186,12 @@ ul{
     }
     #footerlien, #contact-footer {
         font-size: 12px;
+    }
+}
+/*Slogan*/
+@media screen and (max-width: 1200px) {
+    .slogan  {
+        font-size: 1.5em; /* Réduction de la taille de la police */
     }
 }
 /*jeux*/
@@ -283,21 +288,21 @@ ul{
 
 @media screen and (max-width: 800px) {
     .wrapper {
-        font-size: 16px; /* Réduction supplémentaire de la taille de la police */
+        margin-right: -6%;
     }
 }
 
 @media screen and (max-width: 500px) {
     .wrapper{
         font-size: 100%;
-        margin-left: 10%;
+        margin-left: 5%;
     }
 }
 /*Formulaire*/
 @media screen and (max-width: 1200px) {
     .formulaire,ul {
-        font-size: 18px;
-        margin-left: 10%;
+        font-size: 90%;
+        margin-left: 15%;
     }
 }
 @media screen and (max-width: 800px) {
