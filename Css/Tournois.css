@@ -173,7 +173,6 @@ ul{
         font-size: 12px;
     }
 }
-
 /*jeux*/
 @media screen and (max-width: 1200px) {
     .jeux  {
@@ -191,6 +190,17 @@ ul{
 @media screen and (max-width: 500px) {
     .jeux {
         font-size: 14px; /* Très petite taille de police pour les petits écrans */
+    }
+}
+/*imagejeux*/
+@media screen and (max-width: 1200px) {
+    .imagejeux  {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 800px) {
+    .imagejeux {
+        flex-direction: column;
     }
 }
 @media screen and (max-width: 1200px) {
