@@ -1,0 +1,19 @@
+/*css programme*/
+
+.rougeimportant {
+    font-family: "Pixelify Sans", serif;
+    font-size: 30px;
+    color: #E41F21;
+}
+
+/*css reglement*/
+#reglement {
+    text-align: left;
+    font-size: 17px;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: #1566AD;
+    font-family: "Roboto", serif;
+    border-radius: 8px; /* Arrondit les coins de la bordure */
+    border: 5px dotted #E41F21;
+}

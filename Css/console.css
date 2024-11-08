@@ -1,0 +1,281 @@
+/*css console*/
+
+/*css image*/
+.Consoleback{
+    background-image: url("https://media.istockphoto.com/id/1393025162/fr/vid%C3%A9o/d%C3%A9marrer-le-jeu-sur-une-machine-darcade.jpg?s=640x640&k=20&c=qIG2g0c8CAAuNX-EMN2e06K29xzb5oNCziSmA88Qprg=");
+}
+
+/*css console en colonne*/
+
+.console-container {
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+}
+
+.console-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+}
+
+.console-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.console-item h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.console-item p {
+    font-size: 16px;
+    color: #555;
+}
+
+/*css jeux-emblematique*/
+#jeux-emblematiques {
+    padding: 20px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+#jeux-emblematiques h2 {
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.jeux-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.jeu {
+    width: 250px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.jeu img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.jeu h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1.2em;
+    color: #333;
+    margin: 10px 0;
+}
+
+.jeu p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #666;
+    font-size: 0.9em;
+    line-height: 1.4;
+}
+
+/*css reservation*/
+.reservation-container {
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/*css div des slots*/
+.slots {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.slot-item {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.slot-item h3 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.slot-item p {
+    font-size: 14px;
+    color: #555;
+}
+
+.slot-item button {
+    padding: 8px 16px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.slot-item button:hover {
+    background-color: #555;
+}
+
+/*css reservation*/
+
+.reservation-form {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.reservation-form h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.reservation-form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.reservation-form input,
+.reservation-form select,
+.reservation-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.reservation-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.reservation-form button:hover {
+    background-color: #555;
+}
+
+
+/*css ticket*/
+.ticket-container {
+    width: 90%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.ticket-container h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+.ticket-form .form-group {
+    margin-bottom: 15px;
+}
+
+.ticket-form label {
+    display: block;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.ticket-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+ul{
+    list-style: none;
+}
+
+
+.ticket-container {
+    background-color: #fff;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    padding: 20px;
+    text-align: center;
+}
+
+.ticket-container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+
+
+/*responsive*/
+@media (min-width: 1200px) {
+    .console-container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    .console-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 767px) {
+    .console-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+/*responsive*
+
+@media (min-width: 768px) {
+    .reservation-container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 767px) {
+    .reservation-container {
+        grid-template-columns: 1fr;
+    }
+}

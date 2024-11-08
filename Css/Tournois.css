@@ -1,0 +1,113 @@
+/*css Tournois*/
+
+/* Image texte top page*/
+.imageboutique {
+    margin-left: -100px;
+    max-width: 400px; /* La largeur ne dépassera pas 400px */
+    max-height: 300px; /* La hauteur ne dépassera pas 300px */
+}
+#interieurboutique{
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 390px;
+    width: 50%;
+}
+#inscrivez {
+    position: sticky;
+    left: 43%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    border: 5px dotted #E41F21;
+    border-radius: 50px;
+    text-decoration: none;
+    font-family: "Pixelify Sans", serif;
+    background-color: #fff;
+    color: #E41F21;
+    font-size: 16px;
+    text-align: center;
+}
+
+#inscrivez:hover {
+    color: #1566AD;
+}
+
+/*css Jeux dans Tournois*/
+.jeux {
+    text-align: center;
+    margin-left: -30px;
+    margin-top: 50px;
+    list-style-type: none;
+    color: #1566AD;
+    font-family: "Pixelify Sans", serif;
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+}
+.jeux li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+}
+.imagejeux {
+    width: 100%;
+    max-width: 100px;
+    height: auto;
+}
+.jeux p {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #1566AD;
+}
+#horaire {
+    color: #E41F21;
+    font-size: 30px;
+    font-family: "Pixelify Sans", serif;
+}
+#dateheure {
+    color: #1566AD;
+    display: inline-block;
+    text-align: left;
+}
+.rougeimportant {
+    font-family: "Pixelify Sans", serif;
+    font-size: 30px;
+    color: #E41F21;
+}
+
+/*css reglement*/
+#reglement {
+    text-align: left;
+    font-size: 17px;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: #1566AD;
+    font-family: "Roboto", serif;
+    border-radius: 8px; /* Arrondit les coins de la bordure */
+    border: 5px dotted #E41F21;
+}
+#dateheure {
+    list-style-type: none;
+    text-align: center;
+}
+
+/*css jeux en dessous reglement*/
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: #1566AD;
+    font-family: "Pixelify Sans", serif;
+    font-size: 20px;
+    justify-items: center;
+}
+
+/*css Formulaire*/
+.formulaire{
+    background-color: white;
+
+}
+ul{
+    list-style: none;
+}
+
+/*responsive*/

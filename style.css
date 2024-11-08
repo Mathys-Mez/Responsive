@@ -1,0 +1,416 @@
+#header {
+    background-color: #1566AD;
+    color: white;
+    text-align: center;
+    padding: 1% 0;
+}
+h1 {
+    font-family: "Pixelify Sans", serif;
+    text-align: center;
+    color: white;
+}
+.navbar-nav .nav-item {
+    margin-right: 20px;
+}
+#categorie {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+#categorie a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-family: "Pixelify Sans", serif;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+#categorie a:hover {
+    color: #E41F21;
+}
+.logo {
+    width: 50px;
+}
+h2 {
+    font-family: "Pixelify Sans", serif;
+    color: #E41F21;
+}
+
+h3 {
+    position: relative;
+    top: 50px;
+    text-align: left;
+    color: #E41F21;
+    font-family: "Pixelify Sans", serif;
+}
+
+
+
+
+.footerlien {
+    text-decoration: none;
+    color: #F1E511;
+}
+.footerlien:hover {
+    text-decoration: none;
+}
+#numblanc {
+    color: white;
+}
+#numblanc:hover {
+    text-decoration: none;
+}
+footer {
+    color: #F1E511;
+    text-align: center;
+    font-size: 14px;
+    text-shadow: 1px 1px 0 #000;
+    margin-top: 100px;
+    font-family: "Roboto", serif;
+}
+
+/*css footer bleu*/
+.full-width-background {
+    background-color: #1566AD;
+    width: 100%;
+    padding: 1px;
+}
+#contact-footer {
+    color: white;
+    text-decoration: none;
+}
+.logo {
+    width: 50px;
+}
+/*Programme css ajouter en + */
+#pdf{
+    position: sticky;
+    left: 45%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    border: 5px dotted #E41F21;
+    border-radius: 50px;
+    text-decoration: none;
+    font-family: "Pixelify Sans", serif;
+    background-color: #fff;
+    color: #E41F21;
+    font-size: 16px;
+    text-align: center;
+}
+#pdf:hover {
+    text-decoration: none;
+    color: #1566AD;
+}
+/* Responsive styles */
+@media screen and (max-width: 1200px) {
+    #interieurboutique {
+        display: inline-block;
+        margin-left: 100px;
+        width: 80%;
+    }
+    #inscrivez {
+        top: 58%; /* Ajuste le bouton plus bas pour plus d'espace */
+        margin-left: 26px;
+    }
+    h3{
+        top: 50px;
+        margin-left: 400px;
+    }
+}
+    h2{
+        text-align: center;
+    }
+@media screen and (max-width: 800px) {
+    h1, h2, h3 {
+        font-size: 1.5em;
+    }
+    #categorie {
+        flex-direction: column;
+        gap: 10px;
+    }
+    #inscrivez {
+        margin-left: 0;
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+}
+@media screen and (max-width: 500px) {
+    h1, h2{
+        font-size: 1.2em;
+    }
+    #categorie {
+        padding: 10px;
+    }
+    .jeux li {
+        max-width: 100px;
+        text-align: center;
+    }
+    .logo {
+        width: 40px;
+    }
+    #footerlien, #contact-footer {
+        font-size: 12px;
+    }
+}
+
+/*jeux*/
+@media screen and (max-width: 1200px) {
+    .jeux  {
+        font-size: 25px; /* Réduction de la taille de la police */
+        margin-left: 10%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .jeux {
+        font-size: 16px; /* Réduction supplémentaire de la taille de la police */
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .jeux {
+        font-size: 14px; /* Très petite taille de police pour les petits écrans */
+    }
+}
+@media screen and (max-width: 1200px) {
+    #dateheure  {
+        font-size: 25px; /* Réduction de la taille de la police */
+        margin-left: 34%;
+    }
+}
+@media screen and (max-width: 800px) {
+    #dateheure {
+        font-size: 16px; /* Réduction supplémentaire de la taille de la police */
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #dateheure {
+        font-size: 14px; /* Très petite taille de police pour les petits écrans */
+    }
+}
+@media screen and (max-width: 1200px) {
+    #reglement {
+        font-size: 25px; /* Réduction de la taille de police */
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #reglement {
+        font-size: 16px; /* Réduction de la taille de police pour les petits écrans */
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #reglement {
+        font-size: 14px; /* Petite taille de police pour les très petits écrans */
+    }
+}
+
+/* Rouge Important */
+@media screen and (max-width: 1200px) {
+    .rougeimportant {
+        font-size: 25px; /* Réduction de la taille de la police */
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .rougeimportant {
+        font-size: 16px; /* Réduction supplémentaire de la taille de la police */
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .rougeimportant {
+        font-size: 14px; /* Très petite taille de police pour les petits écrans */
+    }
+}/*Wrapper*/
+@media screen and (max-width: 1200px) {
+    .wrapper {
+        font-size: 25px; /* Réduction de la taille de la police */
+        margin-left: 10%;    }
+}
+
+@media screen and (max-width: 800px) {
+    .wrapper {
+        font-size: 16px; /* Réduction supplémentaire de la taille de la police */
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .wrapper{
+        font-size: 1.2em;
+    }
+    .wrapper {
+        padding: 10px;
+    }
+    .wrapper {
+        max-width: 100px;
+    }
+    .wrapper{
+        width: 40px;
+    }
+    .wrapper{
+        font-size: 12px;
+    }
+}
+
+/*Programme du festival*/
+@media screen and (max-width: 1200px) {
+    #pdf  {
+        font-size: 25px; /* Réduction de la taille de la police */
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #pdf {
+        font-size: 16px; /* Réduction supplémentaire de la taille de la police */
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #pdf {
+        font-size: 14px; /* Très petite taille de police pour les petits écrans */
+    }
+}
+
+
+
+
+
+
+
+
+.border {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    border: #fff solid 1px;
+    width: 28%;
+    margin-left: 50px;
+    padding: 10px 10px 10px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.active,
+.accordion:hover {
+    background-color: #f1f7f5;
+}
+
+.pannel {
+    padding: 0 2rem 2.5rem 2rem;
+    background-color: white;
+    overflow: hidden;
+    background-color: #f1f7f5;
+
+}
+
+.pannel p {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 1.2rem;
+    line-height: 1.4;
+}
+
+.tab-content p {
+    font-size: 18px;
+}
+
+
+
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.main-title {
+    font-size: 3rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #ff6b6b;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #ff4b4b;
+}
+
+iframe {
+    margin-left: 25%;
+}
+
+
+/*Presentation*/
+.Histoire {
+    background-image: url("https://img.freepik.com/photos-premium/retro-8-bit-super-mario-console-game-background-fond-ecran-haute-resolution-pour-fans-jeux-vintage_820074-238.jpg");
+    background-size: cover ;
+    background-attachment:fixed;
+    color: #491a1a;
+
+}
+
+
+
+ body {
+     min-height: 100vh;
+     background-color: #f3f4f6;
+     font-family: Arial, sans-serif;
+     color: #333;
+     text-align: center;
+ }
+.message {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+
+
+
+
+/*repsonsive*/
+@media  screen and  (max-width: 500px) {
+
+
+}
+
+
+
+
