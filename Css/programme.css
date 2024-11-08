@@ -26,21 +26,61 @@
     border-radius: 8px; /* Arrondit les coins de la bordure */
     border: 5px dotted #E41F21;
 }
+#pdf{
+    position: sticky;
+    left: auto%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    border: 5px dotted #E41F21;
+    border-radius: 50px;
+    text-decoration: none;
+    font-family: "Pixelify Sans", serif;
+    background-color: #fff;
+    color: #E41F21;
+    font-size: 16px;
+    text-align: center;
+}
+#pdf:hover {
+    text-decoration: none;
+    color: #1566AD;
+}
+
 /*Programme du festival*/
 @media screen and (max-width: 1200px) {
-    #pdf  {
-        font-size: 25px; /* Réduction de la taille de la police */
+    #pdf {
+        text-align: center;
+        font-size: 16px; /* Réduction supplémentaire de la taille de la police */
+    }
+    .programme {
+        text-align: center;
+    }
+    #reglement{
+        text-align: center;
     }
 }
 
 @media screen and (max-width: 800px) {
     #pdf {
+        text-align: center;
         font-size: 16px; /* Réduction supplémentaire de la taille de la police */
+    }
+    .programme {
+        text-align: center;
+    }
+    #reglement{
+        text-align: center;
     }
 }
 
 @media screen and (max-width: 500px) {
     #pdf {
-        font-size: 14px; /* Très petite taille de police pour les petits écrans */
+        text-align: center;
+        font-size: 16px; /* Réduction supplémentaire de la taille de la police */
+    }
+    .programme {
+        text-align: center;
+    }
+    #reglement{
+        text-align: center;
     }
 }

@@ -115,7 +115,6 @@
 /*css Formulaire*/
 .formulaire{
     background-color: white;
-
 }
 ul{
     list-style: none;
@@ -129,16 +128,20 @@ ul{
         margin-left: 100px;
         width: 80%;
     }
-    #inscrivez {
+    .inscivez-vous{
         top: 58%; /* Ajuste le bouton plus bas pour plus d'espace */
-        margin-left: 26px;
+        text-align: center;
+    }
+    .inscrivez {
+        display: inline-block;
+        align-items: center;
     }
     h3{
         top: 50px;
         margin-left: 400px;
     }
 }
-h2{
+.slogan{
     text-align: center;
 }
 @media screen and (max-width: 800px) {
@@ -250,7 +253,8 @@ h2{
 @media screen and (max-width: 1200px) {
     .wrapper {
         font-size: 25px; /* Réduction de la taille de la police */
-        margin-left: 10%;    }
+        margin-left: 10%;
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -274,5 +278,25 @@ h2{
     }
     .wrapper{
         font-size: 12px;
+    }
+}
+/*Formulaire*/
+@media screen and (max-width: 1200px) {
+    .formulaire,ul {
+        font-size: 18px;
+        margin-left: 35%;
+    }
+}
+@media screen and (max-width: 800px) {
+    .formulaire {
+        font-size: 16px;
+        padding: 10px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .formulaire {
+        font-size: 14px;
+        padding: 10px;
+        width: 90%; /* Prend 90% de la largeur de l'écran pour les petits écrans */
     }
 }
