@@ -4,7 +4,7 @@
 
 /*Slogan*/
 .slogan{
-    text-align: left;
+    left: 10%;
 }
 /* Image texte top page*/
 .imageboutique {
@@ -140,9 +140,6 @@ ul{
         top: 50px;
         margin-left: 400px;
     }
-}
-.slogan{
-    text-align: center;
 }
 @media screen and (max-width: 800px) {
     h1, h2, h3 {
