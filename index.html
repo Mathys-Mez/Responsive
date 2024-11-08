@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <!-- Titre de la page qui s'affiche dans le partage -->
+    <meta property="og:title" content="Back To Pixel" />
+
+    <!-- Type de contenu (ex: article, website) -->
+    <meta property="og:type" content="website" />
+
+    <!-- URL de la page partagée -->
+    <meta property="og:url" content="http://localhost:63342/Responsive/index.html?_ijt=4ld7b36jeuo4mc7na17fa0l2v&_ij_reload=RELOAD_ON_SAVE" />
+
+    <!-- URL de l'image affichée en vignette lors du partage -->
+    <meta property="og:image" content="https://www.exemple.com/image.jpg" />
+
+    <!-- Description de la page -->
+    <meta property="og:description" content="page index" />
+
+    <!-- Nom du site (facultatif, souvent le nom de ton site) -->
+    <meta property="og:site_name" content="Back To Pixel" />
+
+    <!-- Langue de la page (facultatif) -->
+    <meta property="og:locale" content="fr_FR" />
+    <title>Back To Pixel</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="./Css/index.css">
+    <link rel="icon" type="image/x-icon" href="./img/piece_jaune.png"><link/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap">
+    <script src="https://code.jquery.com/jquer-3.5.1.slim.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+<header id="header">
+    <h1>Back to pixels</h1>
+</header>
+<main>
+    <!--- les different page du site --->
+    <section id="categorie">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/index.html">Accueil<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Pages/Page_Tournois.html">Tournois<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Pages/Histoire.html">Exposition de Consoles Rétro</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Pages/Histoire.html">Histoire de Nintendo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Pages/pagerecontre.html">Rencontre avec Shigeru Miyamoto</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            autre pages
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="./">Ateliers et Activités</a>
+                            <a class="dropdown-item" href="./">Programme du Festival</a>
+                            <a class="dropdown-item" href="./">Partenaires et Sponsors</a>
+                            <a class="dropdown-item" href="./">Boutique de Produits Dérivés</a>
+                            <a class="dropdown-item" href="./">Accréditations Presse et Médias</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+    <!-- presentation -->
+    <div>
+        <h2>bienvenu sur back to pixel</h2>
+    </div>
+    <div>
+        <p class="para">ici vous retrouverais beaucoup de chose</p>
+    </div>
+    <ul class="listacc">
+        <li>des tournois</li>
+        <li>du retrogaming sur nintendo</li>
+        <li>une FAQ</li>
+        <li>des console de votre enfance</li>
+        <li>et bien d'autre</li>
+    </ul>
+    <!-- magasin-->
+    <div>
+        <p class="para">nous avons aussi un magasin</p>
+    </div>
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20756.567246199116!2d1.1016513163330086!3d49.43592583583921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e0df1548cd768b%3A0x70b4b34959b1ec9f!2sNeed%20for%20School!5e0!3m2!1sfr!2sfr!4v1730897574746!5m2!1sfr!2sfr" width="50%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    <div>
+        <p class="para">voici une photo de notre magasin</p>
+    </div>
+    <div>
+        <img class="imagg" src="img/magasin.webp" alt="photo du magasin">
+    </div>
+    <div class="form-container">
+        <h2>Formulaire de Contact</h2>
+        <form class="fform" action="/submit_form" method="post">
+            <label class="txtt" for="nom">Nom :</label><br>
+            <input class="txtt" type="text" id="nom" name="nom" required><br>
+            <label class="txtt" for="email">Email :</label><br>
+            <input class="txtt" type="email" id="email" name="email" required><br>
+            <label class="txtt" for="message">Message :</label><br>
+            <textarea class="txtt" id="message" name="message" rows="4" required></textarea><br>
+            <button class="txtt" type="submit">Envoyer</button>
+        </form>
+    </div>
+</main>
+<footer>
+    <div class="full-width-background">
+        <p>Contact : <a id="contact-footer" href="mailto:addresse@example.com">Back-to-pixels@gmail.com</a></p>
+        <p>10 Rue du Général Sarrail, 76000 Rouen</p>
+        <p>
+            <a id="footerlien" href="tel: 08 12 15 28 39"> téléphone : <span id="numblanc">08 12 15 28 39</span> </a>
+        </p>
+        <p>Copyright By Back To Pixels</p>
+        <a href="https://www.instagram.com/need_forschool/" target="_blank"><img class="logo" src="img/instagram.png" alt="Instagram"></a>
+        <a href="https://www.facebook.com/need4school/?locale=fr_FR" target="_blank"><img class="logo" src="img/facebook.png" alt="Facebook"></a>
+        <a href="https://fr.linkedin.com/school/need-for-school/" target="_blank"><img class="logo" src="img/Linkedin.png" alt="Linkedin"></a>
+        <a href="https://twitter.com/needforschool1" target="_blank"><img class="logo" src="img/twitter.png" alt="Twitter"></a>
+        <div class="footer-bottom">
+            <p class="texte-footer">
+                © 2024 Mon Site Web |
+                <a id="footerlien" href="https://www.nintendo.com/fr-fr/Mentions-legales/Conditions-Generales-de-Vente-CGV-de-Service-Apres-Vente-SAV-Nintendo-France-570453.html?srsltid=AfmBOorF-cudYLoZiVh4UrzPE5Y0qS9f0K7x0DCqAhfb4dRB9GkNcXsP" target="_blank">Conditions Générales</a>
+                | <a id="footerlien" href="Pages/mention_legale.html">Mentions Légales</a>
+            </p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

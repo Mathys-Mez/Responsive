@@ -1,0 +1,47 @@
+/* css page boutique*/
+/* page boutique */
+    .box{
+        text-align: center;
+        width: 45%;
+        display: inline-block;
+        margin-bottom: 60px;
+    }
+
+    .titt{
+        font-family: "Pixelify Sans", serif;
+        color: black;
+        text-align: center;
+        font-size: x-large;
+    }
+
+    /*bouton*/
+    .buy-button {
+        display: inline-block;
+        padding: 12px 24px;
+        background-color: #4CAF50;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+
+    .buy-button:hover {
+        background-color: #45a049;
+    }
+
+@media only screen and (max-width: 800px) {
+    .box{
+        text-align: center;
+        width: 100%;
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+}
+
+
+
+
+/*responsive*/
+/*
+@media screen and (min-width: 321px) {
+ */

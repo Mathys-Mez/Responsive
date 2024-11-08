@@ -1,0 +1,234 @@
+/*css rencontre*/
+
+/*css h3*/
+.espacebas{
+        padding: 4%;
+}
+
+/*css image myiamoto center*/
+.myiamoto{
+    margin-left: 40%;
+}
+
+/*css presentations*/
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.main-title {
+    font-size: 3rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #ff6b6b;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #ff4b4b;
+}
+
+/*css colonnes itinéraires*/
+
+.container2{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1em;
+    margin-left: 2em;
+}
+
+.bloc1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.bloc2{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.pixel{
+    margin-bottom: 2%;
+    margin-top: 2%;
+    margin-left: 30%;
+    width: 30%;
+    height: 30%;
+}
+
+/*css colonnes conférence*/
+.container3{
+    display: flex;
+}
+.lescolonnes .container3{
+    justify-content: space-between;
+    width: 100%;
+}
+
+.accordion {
+    background-color: white;
+    color: rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+    font-size: 1.2rem;
+    width: 100%;
+    padding: 2rem 2.5rem;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+
+.accordion i {
+    font-size: 1.6rem;
+}
+
+.evenement{
+    display: flex;
+    flex-flow: row;
+    width: 40%;
+}
+
+.evenement2{
+    border-right: 1px red solid;
+    padding-right: 2em;
+}
+
+/*css image trop grande*/
+
+/*css commentaire*/
+.faq {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin: 10px 0;
+    width: 100%;
+}
+
+.faq.active {
+    border: none;
+}
+
+/*css billeterie*/
+
+
+/* Conteneur de réservation */
+.reservation-container {
+    display: contents;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Titre du formulaire */
+.reservation-container h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Styles des labels et champs */
+label {
+    font-size: 16px;
+    color: #333;
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Options de type de billet */
+.ticket-type {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.ticket-type input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Bouton de soumission */
+.submit-button {
+    padding: 12px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #45a049;
+}
+
+
+
+/*responsive*/
+
+@media (max-width: 800px) {
+    .myiamoto{
+        margin-left: 25%;
+
+}
+.container2{
+    justify-items: center;
+
+}
+.container3{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+}
+
+@media (max-width: 500px) {
+
+    .container2{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-items: center;
+
+    }
+    .container3{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .pixel{
+        margin-left: 0%;
+        width: 100%;
+    }
+
+    .myiamoto{
+        width: 50%;
+    }
+}

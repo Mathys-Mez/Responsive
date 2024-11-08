@@ -1,0 +1,220 @@
+#header {
+    width: 100%;
+    background-color: #1566AD;
+    color: white;
+    text-align: center;
+    padding: 1% 0;
+}
+h1 {
+    font-family: "Pixelify Sans", serif;
+    text-align: center;
+    color: white;
+}
+.navbar-nav .nav-item {
+    margin-right: 20px;
+}
+#categorie {
+    display: flex;
+    justify-content: center;
+    margin: 1% 0;
+}
+#categorie a {
+    margin: 0 1vw;
+    text-decoration: none;
+    color: #333;
+    font-family: "Pixelify Sans", serif;
+    transition: color 0.3s;
+}
+#categorie a:hover {
+    color: #E41F21;
+}
+h2 {
+    font-family: "Pixelify Sans", serif;
+    color: #E41F21;
+}
+
+h3 {
+    position: relative;
+    text-align: left;
+    color: #E41F21;
+    font-family: "Pixelify Sans", serif;
+}
+
+
+
+
+.footerlien {
+    text-decoration: none;
+    color: #F1E511;
+}
+.footerlien:hover {
+    text-decoration: none;
+}
+#numblanc {
+    color: white;
+}
+#numblanc:hover {
+    text-decoration: none;
+}
+footer {
+    color: #F1E511;
+    text-align: center;
+    text-shadow: 1px 1px 0 #000;
+    margin-top: 10%;
+    font-family: "Roboto", serif;
+}
+
+/*css footer bleu*/
+.full-width-background {
+    background-color: #1566AD;
+    width: 100%;
+    padding: 1px;
+}
+#contact-footer {
+    color: white;
+    text-decoration: none;
+}
+.logo {
+    width: 50px;
+}
+/*Programme css ajouter en + */
+#pdf{
+    position: sticky;
+    left: 45%;
+    transform: translateX(-50%);
+    padding: 1% 2%;
+    border: 5px dotted #E41F21;
+    border-radius: 50px;
+    text-decoration: none;
+    font-family: "Pixelify Sans", serif;
+    background-color: #fff;
+    color: #E41F21;
+    text-align: center;
+}
+#pdf:hover {
+    text-decoration: none;
+    color: #1566AD;
+}
+
+
+
+
+
+
+
+
+
+.border {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    border: #fff solid 1px;
+    width: 28%;
+    margin-left: 50%;
+    padding: 1% 1% 1% 1%;
+}
+
+
+.active,
+.accordion:hover {
+    background-color: #f1f7f5;
+}
+
+.pannel {
+    padding: 0 2rem 2.5rem 2rem;
+    background-color: white;
+    overflow: hidden;
+    background-color: #f1f7f5;
+
+}
+
+.pannel p {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 1.2rem;
+    line-height: 1.4;
+}
+
+.tab-content p {
+    font-size: 18px;
+}
+
+
+
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.main-title {
+    font-size: 3rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #ff6b6b;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #ff4b4b;
+}
+
+iframe {
+    margin-left: 25%;
+}
+
+
+/*Presentation*/
+.Histoire {
+    background-image: url("https://img.freepik.com/photos-premium/retro-8-bit-super-mario-console-game-background-fond-ecran-haute-resolution-pour-fans-jeux-vintage_820074-238.jpg");
+    background-size: cover ;
+    background-attachment:fixed;
+    color: #491a1a;
+
+}
+
+
+
+ body {
+     min-height: 100vh;
+     background-color: #f3f4f6;
+     font-family: Arial, sans-serif;
+     color: #333;
+     text-align: center;
+ }
+.message {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+
+
+
+
+/*repsonsive*/
+@media  screen and  (max-width: 500px) {
+
+
+}
+
+
+
+

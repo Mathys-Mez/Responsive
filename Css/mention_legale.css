@@ -1,0 +1,40 @@
+/*css mention legale*/
+
+.imagesvg{
+    width: 20%;
+    height: 20%;
+}
+
+/*css titre h2*/
+.titremention{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 28px;
+}
+
+/*css container legal*/
+.container_legal {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    color: #000;
+}
+
+/* PAGE MENTIONS LEGALES */
+
+#title_legal {
+    padding-top: 100px;
+    border-bottom: #000 solid 1px;
+}
+#under_border {
+    padding-top: 10px;
+}
+
+
+.grid-container {
+    display: grid;
+    border-top: 5px solid red;
+    width: 50%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}

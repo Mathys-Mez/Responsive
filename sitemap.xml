@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- Page d'accueil -->
+<url>
+    <loc>XXX</loc>
+    <priority> 1.0</priority>
+    <changefreq>daily</changefreq>
+</url>
+
+        <!-- Page des tournois -->
+<url>
+<loc>XXX</loc>
+<priority> 0.8</priority>
+<changefreq>weekly</changefreq>
+</url>
+
+        <!-- Page exposition -->
+<url>
+<loc>XXX</loc>
+<priority> 0.8</priority>
+<changefreq>weekly</changefreq>
+</url>
+
+        <!-- Page histoire de nintendo -->
+<url>
+<loc>XXX</loc>
+<priority> 0.8</priority>
+<changefreq>weekly</changefreq>
+</url>
+
+        <!-- Page rencontre shigeru -->
+<url>
+<loc>XXX</loc>
+<priority> 0.8</priority>
+<changefreq>weekly</changefreq>
+</url>

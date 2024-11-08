@@ -1,0 +1,81 @@
+/*css programme*/
+
+/*h2*/
+.programme{
+    text-align: left;
+    font-family: "Pixelify Sans", serif;
+    color: #E41F21;
+}
+
+
+/*élément en rouge sur le texte*/
+.rougeimportant {
+    font-family: "Pixelify Sans", serif;
+    font-size: 30px;
+    color: #E41F21;
+}
+
+/*css reglement*/
+#reglement {
+    text-align: left;
+    font-size: 17px;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: #1566AD;
+    font-family: "Roboto", serif;
+    border-radius: 8px; /* Arrondit les coins de la bordure */
+    border: 5px dotted #E41F21;
+}
+#pdf{
+    position: sticky;
+    left: auto;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    border: 5px dotted #E41F21;
+    border-radius: 50px;
+    text-decoration: none;
+    font-family: "Pixelify Sans", serif;
+    background-color: #fff;
+    color: #E41F21;
+    font-size: 16px;
+    text-align: center;
+}
+#pdf:hover {
+    text-decoration: none;
+    color: #1566AD;
+}
+
+/*Programme du festival*/
+@media screen and (max-width: 1200px) {
+    #pdf {
+        font-size: 16px;
+        margin-left: 42%;
+    }
+    .programme {
+        text-align: center;
+    }
+    #reglement{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #pdf {
+        margin-left: 40%;
+    }
+    .programme {
+        text-align: center;
+    }
+    #reglement{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .programme {
+        text-align: center;
+    }
+    #reglement{
+        text-align: center;
+    }
+}
