@@ -111,6 +111,11 @@
     padding-right: 2em;
 }
 
+/*css image trop grande*/
+.imagegrande{
+    width: 10%;
+}
+
 /*css commentaire*/
 .faq {
     border: 1px solid rgba(0, 0, 0, 0.2);
@@ -188,6 +193,8 @@ input[type="number"] {
     background-color: #45a049;
 }
 
+
+
 /*responsive*/
 
 @media (max-width: 800px) {
@@ -227,6 +234,4 @@ input[type="number"] {
     .myiamoto{
         width: 50%;
     }
-
-
 }
