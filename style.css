@@ -4,6 +4,11 @@
     text-align: center;
     padding: 1% 0;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
 h1 {
     font-family: "Pixelify Sans", serif;
     text-align: center;
@@ -238,7 +243,3 @@ iframe {
 
 
 }
-
-
-
-
