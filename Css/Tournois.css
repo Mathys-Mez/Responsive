@@ -283,14 +283,14 @@ ul{
 
 @media screen and (max-width: 800px) {
     .wrapper {
-        font-size: 16px; /* Réduction supplémentaire de la taille de la police */
+        margin-right: -6%;
     }
 }
 
 @media screen and (max-width: 500px) {
     .wrapper{
         font-size: 100%;
-        margin-left: 10%;
+        margin-left: 5%;
     }
 }
 /*Formulaire*/
