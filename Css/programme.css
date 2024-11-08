@@ -1,5 +1,14 @@
 /*css programme*/
 
+/*h2*/
+.programme{
+    text-align: left;
+    font-family: "Pixelify Sans", serif;
+    color: #E41F21;
+}
+
+
+/*élément en rouge sur le texte*/
 .rougeimportant {
     font-family: "Pixelify Sans", serif;
     font-size: 30px;
@@ -16,4 +25,22 @@
     font-family: "Roboto", serif;
     border-radius: 8px; /* Arrondit les coins de la bordure */
     border: 5px dotted #E41F21;
+}
+/*Programme du festival*/
+@media screen and (max-width: 1200px) {
+    #pdf  {
+        font-size: 25px; /* Réduction de la taille de la police */
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #pdf {
+        font-size: 16px; /* Réduction supplémentaire de la taille de la police */
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #pdf {
+        font-size: 14px; /* Très petite taille de police pour les petits écrans */
+    }
 }
